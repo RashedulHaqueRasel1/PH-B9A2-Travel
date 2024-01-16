@@ -1,0 +1,24 @@
+@media screen and (max-width:576px){
+  body{
+    width: 100%;
+  }
+  /* Nav Bar Responsive Start Here */
+  nav{
+    margin: 20px;
+  }
+  nav .nav-item i{
+    display: block;
+  }
+  nav .nav-icone{
+    gap: 10px;
+  }
+  nav .nav link a{
+    display: none;
+  }
+  .nav-icone h2{
+    font-weight: 800;
+    font-size: 1.31rem;
+    color: #131318;
+  }
+  /* Nav Bar Responsive End Here */
+}
