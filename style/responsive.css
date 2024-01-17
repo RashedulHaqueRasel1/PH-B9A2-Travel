@@ -90,8 +90,9 @@
     padding-left: 28px;
   }
 
-  .banner-content button {
+  .tours-content button {
     margin-bottom: 24px;
+
   }
 
   /* Tours Responsive End Here */
@@ -101,6 +102,21 @@
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 1fr;
+  }
+
+  .choose-contents {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto 48px auto;
+  }
+  .choose-title{
+    font-size: 20px;
+  }
+
+  .img-container img {
+    width: 100%;
+    padding: 0 20px;
+    text-align: justify;
   }
 
   .grid-item-1 {

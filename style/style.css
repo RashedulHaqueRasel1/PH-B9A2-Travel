@@ -178,6 +178,7 @@ nav .nav-item .color {
   border: none;
   cursor: pointer;
 
+
 }
 
 .tour-img img {
@@ -201,7 +202,7 @@ nav .nav-item .color {
   margin-bottom: 16px;
 }
 .choose-description{
-  width: 650px;
+  width: 90%;
   margin: 0 auto;
   color: #5A5A5D;
   text-align: center;
@@ -216,9 +217,7 @@ nav .nav-item .color {
   grid-template-rows: repeat(3, 1fr);
   /* min-height: 200px; */
 }
-.img-container img{
-  width: 95%;
-}
+
 .grid-item-1{
   grid-column: 1 / span 6;
 
@@ -266,6 +265,7 @@ nav .nav-item .color {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 .why-hotel{
   width: 50%;
 }
@@ -277,6 +277,12 @@ nav .nav-item .color {
   margin: 50px auto 0 auto;
 }
 .why-title{
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+  margin: 25px 0;
+}
+.why-title-1{
   color: #131318;
   font-size: 24px;
   font-weight: 800;
