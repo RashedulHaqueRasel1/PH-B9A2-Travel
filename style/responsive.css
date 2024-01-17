@@ -89,4 +89,20 @@
     width: 100%;
   }
   /* News Seaction Responsive End here */
+
+  /* Footer Section Start Now */
+  .footer{
+    padding: 24px;
+    padding: 30px;
+
+  }
+  .footer hr{
+    width: 100%;
+    margin: 20px auto;
+  }
+  .footer-description{
+    width: 100%;
+  }
+  
+  /* Footer Section End Now */
 }

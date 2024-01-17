@@ -284,3 +284,51 @@ form,
 }
 
 /* Newsletter Seaction Style End Here */
+
+
+/* Footer Section Style Start Here */
+.footer{
+  background: rgba(19, 19, 24, 0.05);
+  padding: 100px;
+  text-align: center;
+}
+.footer-logo{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+}
+.logo{
+  width: 40px;
+}
+.logo-title{
+  color: #131318;
+  font-size: 32px;
+  font-weight: 800;
+}
+.footer-description{
+  width: 760px;
+  margin: 0 auto;
+  margin-top: 14px;
+  margin-bottom: 34px;
+  color: #5A5A5D;
+  text-align: center;
+  line-height: 26px;
+}
+.social-icon{
+  justify-content: center;
+  display: flex;
+  font-size: 24px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.footer hr{
+  margin: 50px auto;
+  width: 872px;
+}
+.footer-copy{
+  color: #131318;
+  font-size: 16px;
+  font-weight: 300;
+}
+/* Footer Section Style End Here */
