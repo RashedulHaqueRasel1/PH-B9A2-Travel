@@ -1,108 +1,208 @@
-@media screen and (max-width:576px){
-  body{
+@media screen and (max-width:600px) {
+  body {
     width: 100%;
   }
+
   /* Nav Bar Responsive Start Here */
-  nav{
+  nav {
     margin: 20px;
   }
-  nav .nav-item i{
-    display: block;
-  }
-  nav .nav-icone{
+
+  nav .nav-icone {
     gap: 10px;
   }
-  nav .nav link a{
+
+  nav .nav-item a {
     display: none;
   }
-  .nav-icone h2{
+
+  .nav-icone h2 {
     font-weight: 800;
     font-size: 1.31rem;
     color: #131318;
   }
+
+  .nav-item {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .nav-i {
+    display: block;
+  }
+
   /* Nav Bar Responsive End Here */
 
   /* banner  Responsive End Here */
-  .banner-contaienr .content p{
+  .banner-contaienr .content p {
     font-size: 0.875rem;
     margin-bottom: 32px;
   }
-  .banner-input .in-btn{
+
+  .banner-input .in-btn {
     margin: 10px;
     width: 90%;
     padding: 16px;
   }
-  .banner{
+
+  .banner {
     width: 335px;
     height: 483px;
     margin: 0 auto;
   }
-  .banner .banner-container{
+
+  .banner .banner-container {
     padding: 30px 15px;
   }
-  .banner .banner-content h2{
+
+  .banner .banner-content h2 {
     color: #fff;
     font-size: 1.35rem;
-    font-weight: 800 ;
+    font-weight: 800;
     margin-bottom: 8px;
   }
-  .banner-button{
+
+  .banner-button {
     width: 90%;
   }
+
   /* Banner  Responsive End Here */
 
   /* Tours Responsive Start Here */
-  .tours{
+  .tours {
     flex-direction: column;
     margin-top: 24px;
   }
-  .tours-content , 
-  .tour-img{
+
+  .tours-content,
+  .tour-img {
     width: 100%;
     padding: 0px 20px;
     text-align: justify;
   }
-  .tour-title{
+
+  .tour-title {
     font-size: 1.22rem;
     margin-bottom: 16px;
   }
-  .tour-content ul{
+
+  .tour-content ul {
     padding-left: 28px;
   }
-  .banner-content button{
+
+  .banner-content button {
     margin-bottom: 24px;
   }
+
   /* Tours Responsive End Here */
 
+  /* Choose Your Destination style start here */
+  .img-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr;
+  }
+
+  .grid-item-1 {
+    grid-column: 1 / span 12;
+
+  }
+
+  .grid-item-2 {
+    grid-column: 1/ span 12;
+
+  }
+
+  .grid-item-3 {
+    grid-column: 1 / span 12;
+  }
+
+  .grid-item-4 {
+    grid-column: 1 / span 12;
+  }
+
+  .grid-item-5 {
+    grid-column: 1 / span 12;
+  }
+
+  .grid-item-6 {
+    grid-column: 1 / span 12;
+  }
+
+  .grid-item-7 {
+    grid-column: 1 / span 12;
+  }
+
+
+  /* Choose Your Destination style End here   */
+
+
+  /* Why Choose Us section style Star here */
+  .why {
+    margin: 100px 25px;
+  }
+
+  .why-head-container {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto 48px auto;
+  }
+
+  .why-container {
+    flex-direction: column;
+  }
+
+  .why-hotel {
+    width: 100%;
+  }
+
+  .why-service {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .why-price {
+    width: 100%;
+  }
+
+
+  /* Why Choose Us section style End here */
 
   /* News Seaction Responsive Start here */
-  .news{
+  .news {
     gap: 22px;
     padding: 40px;
     flex-direction: column;
   }
-  .news-container, .news-container h3 , .news-container form,
-  .img-content{
+
+  .news-container,
+  .news-container h3,
+  .news-container form,
+  .img-content {
     width: 100%;
   }
-  .img-content img{
+
+  .img-content img {
     width: 100%;
   }
+
   /* News Seaction Responsive End here */
 
   /* Footer Section Start Now */
-  .footer{
+  .footer {
     padding: 24px;
     padding: 30px;
 
   }
-  .footer hr{
+
+  .footer hr {
     width: 100%;
     margin: 20px auto;
   }
-  .footer-description{
+
+  .footer-description {
     width: 100%;
   }
-  
+
   /* Footer Section End Now */
 }
