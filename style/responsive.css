@@ -21,4 +21,57 @@
     color: #131318;
   }
   /* Nav Bar Responsive End Here */
+
+  /* banner  Responsive End Here */
+  .banner-contaienr .content p{
+    font-size: 0.875rem;
+    margin-bottom: 32px;
+  }
+  .banner-input .in-btn{
+    margin: 10px;
+    width: 90%;
+    padding: 16px;
+  }
+  .banner{
+    width: 335px;
+    height: 483px;
+    margin: 0 auto;
+  }
+  .banner .banner-container{
+    padding: 30px 15px;
+  }
+  .banner .banner-content h2{
+    color: #fff;
+    font-size: 1.35rem;
+    font-weight: 800 ;
+    margin-bottom: 8px;
+  }
+  .banner-button{
+    width: 90%;
+  }
+  /* Banner  Responsive End Here */
+
+  /* Tours Responsive Start Here */
+  .tours{
+    flex-direction: column;
+    margin-top: 24px;
+  }
+  .tours-content , 
+  .tour-img{
+    width: 100%;
+    padding: 0px 20px;
+    text-align: justify;
+  }
+  .tour-title{
+    font-size: 1.22rem;
+    margin-bottom: 16px;
+  }
+  .tour-content ul{
+    padding-left: 28px;
+  }
+  .banner-content button{
+    margin-bottom: 24px;
+  }
+
+  /* Tours Responsive End Here */
 }
