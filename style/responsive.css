@@ -72,6 +72,21 @@
   .banner-content button{
     margin-bottom: 24px;
   }
-
   /* Tours Responsive End Here */
+
+
+  /* News Seaction Responsive Start here */
+  .news{
+    gap: 22px;
+    padding: 40px;
+    flex-direction: column;
+  }
+  .news-container, .news-container h3 , .news-container form,
+  .img-content{
+    width: 100%;
+  }
+  .img-content img{
+    width: 100%;
+  }
+  /* News Seaction Responsive End here */
 }

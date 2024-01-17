@@ -60,8 +60,8 @@ nav .nav-item .color {
 
 .banner {
   background-image:
-  linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),
-   url(../Images/Group13\ .png);
+    linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),
+    url(../Images/Group13\ .png);
   background-position: center;
   background-size: cover;
   height: 500px;
@@ -73,22 +73,26 @@ nav .nav-item .color {
   border-radius: 16px;
   padding: 106px 185px;
 }
-.banner-container .banner-content h2{
+
+.banner-container .banner-content h2 {
   color: #fff;
   font-size: 4rem;
   font-weight: 800;
   margin-bottom: 24px;
 }
-.banner-container .banner-content p{
+
+.banner-container .banner-content p {
   margin-bottom: 64px;
   color: #FFF;
 }
-.banner-input{
+
+.banner-input {
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.30);
   padding: 8px;
 }
-.banner-input .in-btn{
+
+.banner-input .in-btn {
   width: 174px;
   height: 52px;
   border-radius: 8px;
@@ -99,11 +103,13 @@ nav .nav-item .color {
   background: #fff;
   color: rgba(19, 19, 24, 0.50);
 }
-.banner-input .in-btn::placeholder{
+
+.banner-input .in-btn::placeholder {
   color: rgba(19, 19, 24, 0.50);
   padding: 16px;
 }
-.banner-button{
+
+.banner-button {
   height: 52px;
   width: 174px;
   border-radius: 8px;
@@ -114,43 +120,50 @@ nav .nav-item .color {
   outline: none;
   cursor: pointer;
 }
-.banner-input i{
+
+.banner-input i {
   margin-right: 12px;
   color: white;
 }
 
 /* Banner Style End Here */
 
-.tours{
+.tours {
   display: flex;
   justify-content: space-between;
   margin-top: 100px;
 }
+
 .tours-content,
-.tour-img{
+.tour-img {
   width: 46%;
 }
- .tour-title{
+
+.tour-title {
   color: #131318;
   font-weight: 800;
   margin-bottom: 24px;
   font-size: 2.22rem;
 }
-.tour-description{
+
+.tour-description {
   color: #5A5A5D;
   line-height: 26px;
   font-weight: 400;
   margin-bottom: 30px;
 }
-.tours-content ul{
+
+.tours-content ul {
   padding-left: 28px;
 }
-.tours-content li{
+
+.tours-content li {
   color: #5A5A5D;
   line-height: 26px;
   margin-bottom: 16px;
 }
-.tours-content button{
+
+.tours-content button {
   color: #FFF;
   border-radius: 8px;
   font-size: 1.22rem;
@@ -161,6 +174,109 @@ nav .nav-item .color {
   cursor: pointer;
 
 }
-.tour-img img{
+
+.tour-img img {
   width: 100%;
 }
+
+
+
+/* Newsletter Seaction Style Start Here */
+.news {
+  /* border: 1px solid sandybrown; */
+  gap: 28px;
+  margin: 100px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.news-container {
+  width: 45%;
+  padding: 30px;
+  color: #131318;
+  font-weight: 800;
+  margin-bottom: 16px;
+  padding: 34px;
+  border-radius: 16px;
+  border: 1px solid #FF5400;
+}
+.news-title {
+  color: #131318;
+  font-weight: 800;
+  margin-bottom: 24px;
+  font-size: 2.22rem;
+}
+.news-description {
+  color: #5A5A5D;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+.img-content {
+  width: 65%;
+}
+
+.img-content img {
+  max-width: 100%;
+  height: 100%;
+}
+
+.save-up {
+  width: 320px;
+  height: 120px;
+  color: #FFF;
+  position: relative;
+  text-align: center;
+  border-radius: 16px;
+  background: #FF5400;
+}
+
+.save-up p {
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.save-up-70 {
+  color: #FFF;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+form,
+input {
+  width: 100%;
+  display: block;
+  margin-bottom: 16px;
+}
+
+input {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 15px 18px;
+  border-radius: 9px;
+  color: rgba(19, 19, 24, 0.30);
+  background: rgba(19, 19, 24, 0.05);
+
+}
+
+.sub-btn {
+  background: #FF5400;
+  color: #FFF;
+  width: 100%;
+  display: block;
+  padding: 15px 0;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+}
+
+/* Newsletter Seaction Style End Here */
